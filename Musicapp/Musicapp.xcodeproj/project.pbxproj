@@ -31,6 +31,8 @@
 		FA729BCD29789D9000AF3239 /* SongInfoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA729BCC29789D9000AF3239 /* SongInfoPresenter.swift */; };
 		FA729BCF29789DA500AF3239 /* SongPlayerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA729BCE29789DA500AF3239 /* SongPlayerPresenter.swift */; };
 		FA729BD129789DBD00AF3239 /* SongsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA729BD029789DBD00AF3239 /* SongsRouter.swift */; };
+		FA729BD32978A49200AF3239 /* SongEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA729BD22978A49200AF3239 /* SongEntity.swift */; };
+		FA729BD52978A4A600AF3239 /* PlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA729BD42978A4A600AF3239 /* PlayerService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,8 @@
 		FA729BCC29789D9000AF3239 /* SongInfoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongInfoPresenter.swift; sourceTree = "<group>"; };
 		FA729BCE29789DA500AF3239 /* SongPlayerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongPlayerPresenter.swift; sourceTree = "<group>"; };
 		FA729BD029789DBD00AF3239 /* SongsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsRouter.swift; sourceTree = "<group>"; };
+		FA729BD22978A49200AF3239 /* SongEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongEntity.swift; sourceTree = "<group>"; };
+		FA729BD42978A4A600AF3239 /* PlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +178,8 @@
 		FA729BAF29789A6400AF3239 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				FA729BD22978A49200AF3239 /* SongEntity.swift */,
+				FA729BD42978A4A600AF3239 /* PlayerService.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -382,9 +388,11 @@
 				FA729BC429789D0600AF3239 /* HomeViewController.swift in Sources */,
 				FA729BC929789D3A00AF3239 /* SongsInteractor.swift in Sources */,
 				FA729BCF29789DA500AF3239 /* SongPlayerPresenter.swift in Sources */,
+				FA729BD52978A4A600AF3239 /* PlayerService.swift in Sources */,
 				FA729B7E297899ED00AF3239 /* SceneDelegate.swift in Sources */,
 				FA729BB829789CBB00AF3239 /* SongPlayerViewController.swift in Sources */,
 				FA729B86297899ED00AF3239 /* Musicapp.xcdatamodeld in Sources */,
+				FA729BD32978A49200AF3239 /* SongEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
