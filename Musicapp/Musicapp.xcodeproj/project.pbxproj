@@ -33,6 +33,10 @@
 		FA729BD129789DBD00AF3239 /* SongsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA729BD029789DBD00AF3239 /* SongsRouter.swift */; };
 		FA729BD32978A49200AF3239 /* SongEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA729BD22978A49200AF3239 /* SongEntity.swift */; };
 		FA729BD52978A4A600AF3239 /* PlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA729BD42978A4A600AF3239 /* PlayerService.swift */; };
+		FA729BD82978AAE300AF3239 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA729BD62978AAE300AF3239 /* HomeCollectionViewCell.swift */; };
+		FA729BD92978AAE300AF3239 /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA729BD72978AAE300AF3239 /* HomeCollectionViewCell.xib */; };
+		FA729BDC2978AB0400AF3239 /* HomeCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA729BDA2978AB0400AF3239 /* HomeCollectionReusableView.swift */; };
+		FA729BDD2978AB0400AF3239 /* HomeCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA729BDB2978AB0400AF3239 /* HomeCollectionReusableView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +87,10 @@
 		FA729BD029789DBD00AF3239 /* SongsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsRouter.swift; sourceTree = "<group>"; };
 		FA729BD22978A49200AF3239 /* SongEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongEntity.swift; sourceTree = "<group>"; };
 		FA729BD42978A4A600AF3239 /* PlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerService.swift; sourceTree = "<group>"; };
+		FA729BD62978AAE300AF3239 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		FA729BD72978AAE300AF3239 /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		FA729BDA2978AB0400AF3239 /* HomeCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionReusableView.swift; sourceTree = "<group>"; };
+		FA729BDB2978AB0400AF3239 /* HomeCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionReusableView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +226,10 @@
 				FA729BC229789D0600AF3239 /* HomeViewController.swift */,
 				FA729BC329789D0600AF3239 /* HomeViewController.xib */,
 				FA729BC629789D1100AF3239 /* HomeView.swift */,
+				FA729BD62978AAE300AF3239 /* HomeCollectionViewCell.swift */,
+				FA729BD72978AAE300AF3239 /* HomeCollectionViewCell.xib */,
+				FA729BDA2978AB0400AF3239 /* HomeCollectionReusableView.swift */,
+				FA729BDB2978AB0400AF3239 /* HomeCollectionReusableView.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -348,8 +360,10 @@
 			files = (
 				FA729BB929789CBB00AF3239 /* SongPlayerViewController.xib in Resources */,
 				FA729B8B297899F000AF3239 /* LaunchScreen.storyboard in Resources */,
+				FA729BDD2978AB0400AF3239 /* HomeCollectionReusableView.xib in Resources */,
 				FA729BBF29789CE200AF3239 /* SongInfoViewController.xib in Resources */,
 				FA729B88297899F000AF3239 /* Assets.xcassets in Resources */,
+				FA729BD92978AAE300AF3239 /* HomeCollectionViewCell.xib in Resources */,
 				FA729B83297899ED00AF3239 /* Main.storyboard in Resources */,
 				FA729BC529789D0600AF3239 /* HomeViewController.xib in Resources */,
 			);
@@ -381,6 +395,7 @@
 				FA729BCB29789D7500AF3239 /* SongsHomePresenter.swift in Sources */,
 				FA729B80297899ED00AF3239 /* ViewController.swift in Sources */,
 				FA729BCD29789D9000AF3239 /* SongInfoPresenter.swift in Sources */,
+				FA729BD82978AAE300AF3239 /* HomeCollectionViewCell.swift in Sources */,
 				FA729BC729789D1100AF3239 /* HomeView.swift in Sources */,
 				FA729BC129789CF100AF3239 /* SongInfoView.swift in Sources */,
 				FA729BD129789DBD00AF3239 /* SongsRouter.swift in Sources */,
@@ -389,6 +404,7 @@
 				FA729BC929789D3A00AF3239 /* SongsInteractor.swift in Sources */,
 				FA729BCF29789DA500AF3239 /* SongPlayerPresenter.swift in Sources */,
 				FA729BD52978A4A600AF3239 /* PlayerService.swift in Sources */,
+				FA729BDC2978AB0400AF3239 /* HomeCollectionReusableView.swift in Sources */,
 				FA729B7E297899ED00AF3239 /* SceneDelegate.swift in Sources */,
 				FA729BB829789CBB00AF3239 /* SongPlayerViewController.swift in Sources */,
 				FA729B86297899ED00AF3239 /* Musicapp.xcdatamodeld in Sources */,
